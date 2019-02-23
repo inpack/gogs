@@ -8,7 +8,7 @@ description = A painless self-hosted Git service.
 
 
 %build
-PREFIX="{{.project__prefix}}"
+PREFIX="/opt/gogs/gogs"
 
 cd {{.inpack__pack_dir}}/deps
 
